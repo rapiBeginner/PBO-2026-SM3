@@ -11,4 +11,14 @@ public class kacamataMinus extends kacamata{
         nilaiMinus=newMinus;
         System.out.println("Nilai minus berubah jadi "+nilaiMinus);
     }
+
+    void perbaikiIndexBias(double biasBaru){
+        indexBias=biasBaru;
+        System.out.println("Nilai index baru adalah "+indexBias);
+    }
+
+    void gantiSilinder(){
+        isSilinder=!(isSilinder);
+        System.out.println("Nilai silider sekarang menjadi "+isSilinder);
+    }
 }

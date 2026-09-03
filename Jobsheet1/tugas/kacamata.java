@@ -12,4 +12,12 @@ public class kacamata {
     public void lepas(){
         System.out.println("Kacamata dilepas");
     }
+
+    public void tutupFrame(){
+        System.out.println("Frame ditekuk/ditutup");
+    }
+
+    public void bukaFrame(){
+        System.out.println("Frame/engsel dibuka");
+    }
 }

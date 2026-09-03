@@ -18,4 +18,12 @@ public class tumbler {
     void tutup(){
         System.out.println("Botol ditutup");
     }
+
+    void diisiAir(){
+        System.out.println("Air dimasukkan...");
+    }
+
+    void tuangkanAir(){
+        System.out.println("Menuangkan Air...");
+    }
 }
