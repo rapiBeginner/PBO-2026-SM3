@@ -5,25 +5,34 @@ public class tumbler {
     public boolean isTermos;
     public String warna, bahan;
 
-    tumbler(double volume, String warna, String bahan){
-        this.volume=volume;
-        this.bahan=bahan;
-        this.warna=warna;
+    tumbler(double volume, String warna, String bahan) {
+        this.volume = volume;
+        this.bahan = bahan;
+        this.warna = warna;
     }
 
-    void buka(){
+    void buka() {
         System.out.println("Botol dibuka");
     }
 
-    void tutup(){
+    void tutup() {
         System.out.println("Botol ditutup");
     }
 
-    void diisiAir(){
+    void diisiAir() {
         System.out.println("Air dimasukkan...");
     }
 
-    void tuangkanAir(){
+    void tuangkanAir() {
         System.out.println("Menuangkan Air...");
+    }
+
+    public void tampilInformasi() {
+        System.out.println("=== Informasi Tumbler ===");
+        System.out.println("Volume         : " + volume);
+        System.out.println("Tinggi         : " + tinggi);
+        System.out.println("Termos         : " + isTermos);
+        System.out.println("Warna          : " + warna);
+        System.out.println("Bahan          : " + bahan);
     }
 }

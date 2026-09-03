@@ -21,6 +21,12 @@ public class buku {
         System.out.println("Dituliskan pada halaman buku...");
     }
 
-
-
+    public void tampilInformasi() {
+        System.out.println("=== Informasi Buku ===");
+        System.out.println("Lebar         : " + lebar);
+        System.out.println("Panjang       : " + panjang);
+        System.out.println("Jumlah Halaman: " + jumlahHalaman);
+        System.out.println("Warna Cover   : " + warnaCover);
+        System.out.println("Berat         : " + berat);
+    }
 }
