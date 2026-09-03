@@ -2,7 +2,7 @@ package tugas;
 
 public class setrika {
     public String merek;
-    public double suhuMax;
+    public double suhuMax, suhuMin, suhuSekarang=0;
 
     setrika(String merek, double suhuMax){
         this.merek=merek;

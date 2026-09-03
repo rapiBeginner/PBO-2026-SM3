@@ -1,10 +1,9 @@
 package tugas;
 
 public class kacamata {
-    public boolean isPhotocromic;
-    public String warnaLensa;
+    public boolean isPhotocromic,isFrameFlexible;
+    public String warnaLensa, bahanFrame;
     public double harga;
-
 
     public void pakai(){
         System.out.println("Kacamata dipakai");

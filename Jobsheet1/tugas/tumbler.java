@@ -1,7 +1,8 @@
 package tugas;
 
 public class tumbler {
-    public double volume;
+    public double volume, tinggi;
+    public boolean isTermos;
     public String warna, bahan;
 
     tumbler(double volume, String warna, String bahan){

@@ -4,7 +4,8 @@ package tugas;
  * kacamataMinus
  */
 public class kacamataMinus extends kacamata{
-    public double nilaiMinus;
+    public double nilaiMinus, indexBias;
+    public boolean isSilinder;
 
     void gantiLensa(double newMinus){
         nilaiMinus=newMinus;
