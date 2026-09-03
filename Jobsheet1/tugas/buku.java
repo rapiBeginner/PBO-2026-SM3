@@ -2,13 +2,8 @@ package tugas;
 
 public class buku {
     public double lebar,panjang;
-    int jumlahHalaman;
-
-    buku(double lebar, double panjang, int jumlahHalaman){
-        this.lebar=lebar;
-        this.panjang=panjang;
-        this.jumlahHalaman=jumlahHalaman;
-    }
+    public int jumlahHalaman;
+    // public String warnaCover,berat;
 
     void buka(){
         System.out.println("Buku dibuka");
