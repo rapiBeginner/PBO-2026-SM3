@@ -2,7 +2,7 @@ package bikeDemo;
 /**
  * Bike01
  */
-public class Bike01 {
+public class Bike02 {
     private String brand;
     private int speed, gear = 1;
 
@@ -46,7 +46,7 @@ public class Bike01 {
     public void printInfo(){
         System.out.println("Brand   : "+brand);
         System.out.println("Speed   : "+speed);
-        System.out.println("Gear    : "+gear+"\n");
+        System.out.println("Gear    : "+gear);
     }
     
 }
