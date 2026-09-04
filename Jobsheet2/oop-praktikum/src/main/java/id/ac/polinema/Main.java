@@ -3,17 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package id.ac.polinema;
-
-/**
- *
- * @author Hp
- */
 public class Main {
    public static void main(String[] args){
        Rectangle r= new Rectangle();
        r.width=6;
        r.height=4;
        
-       System.out.println("Rectangle "+ r.width+"+"+r.height);
+       System.out.println("Area: "+r.area());
+       System.out.println("Perimeter: "+r.perimeter());
    }
 }
